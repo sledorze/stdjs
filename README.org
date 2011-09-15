@@ -1,33 +1,23 @@
-* Standard JavaScript Type Definitions for the HaXe Programming Language.	
+** Standard JavaScript Type Definitions for the HaXe Programming Language.	
 
  This includes all HTML specifications plus all the new HTML5 technologies such as WebGL, 2D Canvas, 
- WebSockets, Web Workers, HTML5 Specifications, etc... 
+ WebSockets, Web Workers, HTML5 Markup Specifications, etc... 
 
 IMPORTANT: This HaXeLib does not include all the Native JavaScript implementations of 
 (Array, Number, Boolean, RexExp, Error) but instead of having to replace your standard HaXe Library 
 you can instead use the "stdjs" HaXeLib and Gain acess to the full HTML5 specifications stictly typed
-in your prefered HaXe Coding IDE or TextEditor.
+in your prefered HaXe Coding IDE or TextEditor (For example HaXe support in FDT).
 
-For example usage do look at the CommonJS.hx file included and example below.
+For usage do look at the CommonJS.hx file included in the HaxeLib for examples. More demos will be
+will be added soon. Documentation is via the W3C specifications. For example you can access and preform events as you would do in pure JavaScript.
 
-package js;
+To install simply use HaXelib. run the following command after installing HaXelib.
+"haxelib install xirsys_stdjs" 
 
-import UserAgentContext;
+To find out more about using HaXeLibs please visit this page.
+http://haxe.org/doc/haxelib/using_haxelib
 
-class HTML{
-			
-	public var htmlDocument : HTMLDocument;
-	public var window : Window; 
+Also please post a issue if there are missing features or any other issues and we will quickly look at update
+the HaXelib so it is feature complete.
 
-	public function new() {
-		htmlDocument =  untyped __js__("document");
-		window =  untyped __js__("window");
-	}
-				
-}
-
-Then for example you can access and preform events as you would do in pure JavaScript.
-
-Release
- - 0.1 Release credited to Nathan (webr3)
- - 0.2 HaXeLib Release credited to James Jackson (jamesbjackson)
+Release credited to James Jackson (jamesbjackson) and Nathan (webr3)
