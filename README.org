@@ -8,7 +8,7 @@ IMPORTANT: This HaXeLib does not include all the Native JavaScript implementatio
 you can instead use the "stdjs" HaXeLib and Gain acess to the full HTML5 specifications stictly typed
 in your prefered HaXe Coding IDE or TextEditor.
 
-In order to access the type definitions you need to do the following.
+For example usage do look at the CommonJS.hx file included and example below.
 
 package js;
 
@@ -26,7 +26,7 @@ class HTML{
 				
 }
 
-Then for example you can access and preform events as you would do in pure JavaScript
+Then for example you can access and preform events as you would do in pure JavaScript.
 
 Release
  - 0.1 Release credited to Nathan (webr3)
