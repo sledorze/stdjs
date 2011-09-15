@@ -13,7 +13,7 @@ Documentation is via the W3C specifications or you can simple view the source of
 
 To install simply use HaXelib. run the following command after installing HaXelib, to find out more visit 
 [[http://haxe.org/doc/haxelib/using_haxelib]]. In the command line simply use the follow command  
-"*haxelib install xirsys_stdjs*" and then add it to your HaXe project file as a libary.
+"*haxelib install xirsys_stdjs*" and then add it to your HaXe project file as a library.
 
 Also please post a issue if there are missing features or any other issues [[https://github.com/xirsys/stdjs/issues]] 
 and we will quickly look at update the HaXelib so we can make sure it is feature complete. 
