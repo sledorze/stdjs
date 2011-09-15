@@ -7,7 +7,7 @@ WebSockets, Web Workers, HTML5 Markup Specifications, etc...
 RexExp, Error) bso you can use this  HaXeLib along side the HaXe standard library and gain acess to the full HTML5 
 specifications stictly typedin your prefered HaXe Coding IDE or TextEditor (For example HaXe support in FDT)./
 
-For usage do look at the CommonJS.hx file included in the HaxeLib for examples. More demos will bewill be added soon. 
+For usage do look at the CommonJS.hx file included in the HaxeLib for examples. More demos will be will be added soon. 
 Documentation is via the W3C specifications or you can simple view the source of the HaXelib. 
 
 To install simply use HaXelib. run the following command after installing HaXelib, to find out more visit 
