@@ -1,0 +1,6 @@
+<project name="xirsys_stdjs" url="http://github.com/xirsys/stdjs" license="MIT">
+    <user name="xirsys"/>
+    <tag v="javascript"/>
+    <description>Standard JavaScript ECMAScript v5 Type Definitions</description>
+    <version name="5.0.0">5.0.0</version>
+</project>

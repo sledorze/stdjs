@@ -1,0 +1,20 @@
+#!/bin/bash
+
+echo "CREATING STANDARD JS HAXELIB"
+mkdir -p temp
+cd temp
+rm -rf *
+cd ../
+cp -r haxelib/* temp/
+cd temp
+find . -name ".git" -exec rm -rf {} \;
+find . -name ".DS_Store" -exec rm -rf {} \;
+zip -X -r xirsys_stdjs.zip .
+mv xirsys_stdjs.zip  ../
+rm -rf *
+cd ../
+rmdir temp
+
+
+
+
