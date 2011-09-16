@@ -4,7 +4,7 @@ This includes all HTML specifications plus all the new HTML5 technologies such a
 WebSockets, Web Workers, HTML5 Markup Specifications, etc... 
 
 *IMPORTANT*: /This HaXeLib does not include all the Native JavaScript implementations of (Array, Number, Boolean, 
-RexExp, Error) bso you can use this  HaXeLib along side the HaXe standard library and gain acess to the full HTML5 
+RexExp, Error) so you can use this  HaXeLib along side the HaXe standard library and gain acess to the full HTML5 
 specifications stictly typedin your prefered HaXe Coding IDE or TextEditor (For example HaXe support in FDT)./
 
 For usage do look at the CommonJS.hx file included in the HaxeLib for examples. More demos will be will be added soon. 
